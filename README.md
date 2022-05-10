@@ -4,6 +4,8 @@ Documentation &amp; scripts to deploy &amp; maintain ZFS on linux
 
 Max:
 
+ZFS caching is non-trivial business and very much depends on how your storage is used.  The old adage about storage - pick any two from 'performance, capacity, price' - still applies.  At the low end of ZFS systems with sufficient RAM and spinning disks do the job well with async writes.  At the high end you now have all NVMe systems with sync writes and no need for caching.  In between, you have to juggle with sync writes (for safety) and with ZIL SLOG on separate NVMe flash (for performance). 
+
 ashift=12 (has to do with disk sector size, but there all kinds of magic on modern disks/controllers and setting of 12 or 13 is best)
 
 checksum=sha256 (checksum algorithm, others available applicability depends on deduped dataset etc)
