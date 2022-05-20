@@ -33,6 +33,6 @@ volmode=default | full | geom | dev | none
 This property specifies how volumes should be exposed to the OS.  Setting it to full exposes volumes as fully fledged block devices, providing maximal functionality. The value geom is just an alias for full and is kept for compatibility.  Setting it to dev hides its partitions.  Volumes with property set to none are not exposed outside ZFS, but can be snapshotted, cloned, replicated, etc, that can be suitable for backup purposes.  Value default means that volumes exposition is controlled by system-wide tunable zvol_volmode, where full, dev and none are encoded as 1, 2 and 3 respectively.  The default value is full.
 ```
 
-[Blog post on use with proxmox] (https://www.osso.nl/blog/zfs-zvol-partition-does-not-show-up/)
+[Blog post on use with proxmox](https://www.osso.nl/blog/zfs-zvol-partition-does-not-show-up/)
 
 
