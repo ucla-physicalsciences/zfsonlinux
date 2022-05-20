@@ -25,7 +25,7 @@ ZFS on Ubuntu seems to default to setting ashift=0. I suspect this is ok for 99%
  
 Cody:
 
-###volmode:### VMs qemu images stored as zvols contain partitions that zfs may expose to the OS (e.g. vm-images/aos.ucla.edu-part1).
+**volmode** – VMs qemu images stored as zvols contain partitions that zfs may expose to the OS (e.g. vm-images/aos.ucla.edu-part1).
 
 From `man zfsprops`:
 ```
