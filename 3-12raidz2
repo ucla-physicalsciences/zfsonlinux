@@ -3,4 +3,5 @@
 <tr><td rowspan="2" bgcolor="#FFFFFF" class="rowheader"><font size=+1>plutus.atmos.ucla.edu</td><td class="size" bgcolor="#FFFFFF">4</td><td class="size" bgcolor="#FFFFFF">16G</td><td></td><td></td><td>797</td><td>76</td><td>716</td><td>88</td><td></td><td></td><td>1911</td><td>99</td><td>+++++</td><td>+++</td><td class="size" bgcolor="#FFFFFF">1</td><td>+++++</td><td>+++</td><td>+++++</td><td>+++</td><td>+++++</td><td>+++</td><td>2045</td><td>26</td><td>+++++</td><td>+++</td><td colspan="2">+++++</td><td colspan="2">+++</td></tr>
 <tr><td class="size" bgcolor="#FFFFFF" colspan="2">Latency</td><td colspan="2"></td><td colspan="2">1502us</td><td colspan="2">449us</td><td colspan="2"></td><td colspan="2">139us</td><td colspan="2">78772us</td><td class="size" bgcolor="#FFFFFF" colspan="1">Latency</td><td colspan="2">2113us</td><td colspan="2">15us</td><td colspan="2">13348us</td><td colspan="2">40097us</td><td>22us</td><td>26445us</td></tr>
 </table>
+<div>bonnie++ -u root -r 1024 -s 16384 -d /storage -f -b -n 1 -c 4</div>
 </body></html>
