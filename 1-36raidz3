@@ -3,4 +3,5 @@
 <tr><td rowspan="2" bgcolor="#FFFFFF" class="rowheader"><font size=+1>plutus.atmos.ucla.edu</td><td class="size" bgcolor="#FFFFFF">251G</td><td>308</td><td>99</td><td>992</td><td>76</td><td>790</td><td>82</td><td>611</td><td>99</td><td>2320</td><td>99</td><td>+++++</td><td>+++</td><td class="size" bgcolor="#FFFFFF">16</td><td>10886</td><td>94</td><td>+++++</td><td>+++</td><td>3895</td><td>18</td><td>11876</td><td>96</td><td>+++++</td><td>+++</td><td colspan="2">8217</td><td colspan="2">42</td></tr>
 <tr><td class="size" bgcolor="#FFFFFF" colspan="1">Latency</td><td colspan="2">27680us</td><td colspan="2">28601us</td><td colspan="2">34968us</td><td colspan="2">16156us</td><td colspan="2">101us</td><td colspan="2">395us</td><td class="size" bgcolor="#FFFFFF" colspan="1">Latency</td><td colspan="2">1727us</td><td colspan="2">675us</td><td colspan="2">2126ms</td><td colspan="2">2696us</td><td>19us</td><td>91770us</td></tr>
 </table>
+bonnie++ -u root -d /plutus/test
 </body></html>
